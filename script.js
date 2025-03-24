@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Tera Chehra", filePath: "1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Sajni (From 'Laapataa Ladies')", filePath: "2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Tujhe Kitna Chahne Lage (From 'Kabir Singh')", filePath: "3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Apna Bana Le", filePath: "4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Tu Hain Toh Main Hoon (From 'Sky Force')", filePath: "5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Satranga (From 'ANIMAL')", filePath: "2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Humdard (From 'Ek Villain')", filePath: "2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Tainu Khabar Nahi - From 'Munjya'", filePath: "2.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Tera Chehra", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Sajni (From 'Laapataa Ladies')", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Tujhe Kitna Chahne Lage (From 'Kabir Singh')", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Apna Bana Le", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Tu Hain Toh Main Hoon (From 'Sky Force')", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Satranga (From 'ANIMAL')", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Humdard (From 'Ek Villain')", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Tainu Khabar Nahi - From 'Munjya'", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
     {songName: "Tum Hi Ho", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Agar Tum Saath Ho (From 'Tamasha')", filePath: "4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Agar Tum Saath Ho (From 'Tamasha')", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
